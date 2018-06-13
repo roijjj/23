@@ -7,9 +7,7 @@ import android.os.Bundle;
 public class PhotoGalleryActivity extends SingleFragmentActivity {
 
     @Override
-    protected Fragment createFragment() {
-
+    public Fragment createFragment() {
         return PhotoGalleryFragment.newInstance();
-
     }
 }
